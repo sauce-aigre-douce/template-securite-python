@@ -5,9 +5,7 @@ from src.tp3.utils.session import Session
 def main():
     logger.info("Starting TP3")
 
-    challenges = {
-        "1": "http://IP:9002/captcha1/"
-    }
+    challenges = {"1": "http://IP:9002/captcha1/"}
 
     for i in challenges:
         url = challenges[i]
@@ -21,6 +19,7 @@ def main():
 
         logger.info("Smell good !")
         logger.info(f" Flag for {url} : {session.get_flag()}")
+
 
 if __name__ == "__main__":
     main()

@@ -14,7 +14,6 @@ class Captcha:
         """
         Fonction permettant la capture du captcha.
         """
-        pass
 
     def get_value(self):
         """

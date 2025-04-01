@@ -11,6 +11,7 @@ class Session:
         flag_value (str): The value of the flag to submit.
         valid_flag (str): The valid flag obtained after processing the response.
     """
+
     def __init__(self, url):
         """
         Initializes a new session with the given URL.
@@ -38,13 +39,11 @@ class Session:
         """
         Sends the flag and captcha.
         """
-        pass
 
     def process_response(self):
         """
         Processes the response.
         """
-        pass
 
     def get_flag(self):
         """

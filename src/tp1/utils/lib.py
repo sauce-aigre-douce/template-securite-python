@@ -28,13 +28,11 @@ class Capture:
         """
         Sort and return all captured network protocols
         """
-        pass
 
     def get_all_protocols(self) -> None:
         """
         Return all protocols captured with total packets number
         """
-        pass
 
     def analyse(self, protocols: str) -> None:
         """
@@ -102,4 +100,3 @@ class Report:
             # TODO: generate array
             array = ""
             self.array = array
-
