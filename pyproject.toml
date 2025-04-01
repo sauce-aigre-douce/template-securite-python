@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "template-code"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+scapy = "^2.6.0"
+pygal = "^3.0.5"
+fpdf2 = "^2.8.1"
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+tp1 = "src.tp1.main:main"
+tp3 = "src.tp3.main:main"
