@@ -16,7 +16,8 @@ Installer les dépendances :
 
 ```bash
 cd template-securite-python
-poetry install
+poetry lock
+poetry install --no-root
 ```
 
 ## Utilisation
