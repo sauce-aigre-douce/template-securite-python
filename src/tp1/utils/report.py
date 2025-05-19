@@ -20,6 +20,11 @@ class Report:
         return content
 
     def save(self, filename: str) -> None:
+        """
+        Save report in a file
+        :param filename:
+        :return:
+        """
         final_content = self.concat_report()
         with open(self.filename, "w") as report:
             report.write(final_content)
@@ -28,7 +33,6 @@ class Report:
         """
         Generate graph and array
         """
-
         if param == "graph":
             # TODO: generate graph
             graph = ""
