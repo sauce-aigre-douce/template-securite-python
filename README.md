@@ -25,5 +25,5 @@ poetry install --no-root
 Lancer le projet :
 
 ```bash
-poetry run python -m src.tp1.main
+poetry run tp1
 ```
