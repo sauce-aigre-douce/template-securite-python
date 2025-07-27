@@ -6,4 +6,22 @@ __pycache__/
 *.pyd
 *.db
 *.sqlite3
-report.pdf
+
+# Rapports et captures locaux
+reports/
+*.pcap
+*.pcapng
+
+# Logs et fichiers locaux
+app.log
+*.log
+
+# Fichiers d'environnement / secrets (si tu changes d’avis)
+.env
+openai_api_key.txt
+
+# VSCode et autres
+.vscode/
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
