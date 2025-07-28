@@ -1,9 +1,12 @@
 # Code Sécurité Python :
+___
 
-## Description
+## Description :
+___
 
-Les TP 1 à 3 pour le cours de sécurité Python de 4e année de l'ESGI.
+Les TP 1 à 3 pour le cours de sécurité Python de 4e année de l'ESGI se trouve dans **src/**
 
-## Group
 
+## Groupe :
+___
 Axel MAIGNAN & Reda VIAULT
