@@ -1,12 +1,11 @@
 ## TP1 – Capture & Analyse Réseau (Scapy) + Export JSON + PDF local / PDF via IA :
-___
 
 Ce projet capture le trafic réseau pendant une durée donnée, détecte plusieurs protocoles (TCP/UDP/ICMP/ARP, heuristiques QUIC/SSDP/TLS/DNS…), calcule des statistiques, produit un JSON structuré et génère :
 - un PDF local (matplotlib), ou
 - un PDF via OpenAI (gpt‑4.1‑mini + Code Interpreter) contenant graphiques, tableaux et analyse rédigée.
 
 ### Prérequis :
-___
+
 - Windows avec Npcap installé
 - Droits Administrateur pour la capture (ouvrir un Terminale en Administrateur)
 - Python 3.11+ (ou version utilisée par Poetry).
@@ -16,7 +15,7 @@ ___
   - Une clé API valide.
  
 ### Utilisation :
-___
+
 Lister les interfaces capturables :
 ```bash
 poetry run tp1 --list-ifaces
@@ -44,7 +43,7 @@ poetry run tp1 --iface "Ethernet 2" --seconds 60 ^
 ```
 
 ### Option disponibles :
-___
+
 ```bash
 tp1 [-h]
     [--iface IFACE]
@@ -77,7 +76,7 @@ Mode IA (OpenAI) :
 - --json-out : chemin du JSON d’analyse (sinon déduit de --ai-pdf ou --out).
 
 ### Exemple de commande :
-___
+
 1) Capture rapide + PDF local
 ```bash
 poetry run tp1 --iface "Ethernet 2" --seconds 30 --out reports/local.pdf
