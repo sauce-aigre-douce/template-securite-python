@@ -1,29 +1,9 @@
-# Template code Sécurité Python
+# Code Sécurité Python :
 
 ## Description
 
-Projet contenant les modèles de TP pour le cours de sécurité Python de 4e année de l'ESGI.
+Les TP 1 à 3 pour le cours de sécurité Python de 4e année de l'ESGI.
 
-## Installation
+## Group
 
-Faire un fork puis un clone du projet :
-
-```bash
-git clone git@github.com:<VotreNom>/template-securite-python.git
-```
-
-Installer les dépendances :
-
-```bash
-cd template-securite-python
-poetry lock
-poetry install --no-root
-```
-
-## Utilisation
-
-Lancer le projet :
-
-```bash
-poetry run tp1
-```
+Axel MAIGNAN & Reda VIAULT
